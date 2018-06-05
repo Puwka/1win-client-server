@@ -17,5 +17,4 @@ cd /server npm install
 
 cd /server node index
 
-# build for production and view the bundle analyzer report
 ```
