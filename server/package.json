@@ -1,8 +1,8 @@
 {
-  "name": "kojs2-presentation-examples",
+  "name": "1win-server",
   "version": "1.0.0",
-  "description": "Presentation of Koa v2. The new framework for micro services to the ES2017 style",
-  "main": "01_sync_json.js",
+  "description": "1win client side manipulating with koa2 rest api",
+  "main": "index.js",
   "dependencies": {
     "babel-plugin-syntax-async-functions": "^6.8.0",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
