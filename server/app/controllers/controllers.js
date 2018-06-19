@@ -14,7 +14,6 @@ const controllers = {
         return books;
     },
     create: async function ({ author, description, image, date, title }) {
-        console.log(author, description, image, date, title )
         let book = {author: String(author), description: String(description), image: String(image), title: String(title), date: String(date)};
         let result = await query(`INSERT INTO ${tableName} SET ? ON DUPLICATE KEY UPDATE ?`,[book,book]);
         return controllers.getLength()
